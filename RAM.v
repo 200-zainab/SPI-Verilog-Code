@@ -55,31 +55,4 @@ begin
         end 
     end 
 end
-
-//for the tx_valid high
-//always @(posedge clk or negedge rst_n)
-//begin 
-//    if(!rst_n) begin 
-//        counter  <= 0;
-//        tx_valid <= 0;
-//
-//    end
-//    else begin 
-//        if(STRT_COUNT) begin 
-//            
-//            if(counter==10) begin 
-//                counter <=0;
-//                tx_valid <=0;
-//            end
-//            else begin 
-//            counter <= counter +1;
-//            tx_valid <= 1;
-//
-//            end
-//        end
-//    end
-//end
-
-
-
 endmodule
